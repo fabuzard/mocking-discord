@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap");
+
+body {
+  margin: 0;
+}
+.main {
+  background-color: #404eed;
+  position: relative;
+  z-index: 0;
+}
+.bg {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+.bg > svg {
+  margin-bottom: -9.375rem;
+}
+.bg-2 {
+  position: absolute;
+  align-items: flex-end;
+  display: flex;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 26rem;
+  height: 22rem;
+  justify-content: flex-start;
+}
+.bg-2 > svg {
+  position: absolute;
+  margin-left: -12rem;
+  left: 0;
+  bottom: 0;
+}
+.bg-3 {
+  position: absolute;
+  align-items: flex-end;
+  display: flex;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  width: 26rem;
+  height: 22rem;
+  justify-content: flex-start;
+}
+.bg-3 > svg {
+  position: absolute;
+  margin-right: -12rem;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.navigation > a {
+  font-family: Catamaran;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 1rem;
+  color: white;
+}
+.navigation > a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 7px 16px;
+  background-color: white;
+  border-color: white;
+  border: none;
+  cursor: pointer;
+}
+.login:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.hero-body {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 40px;
+  position: relative;
+  z-index: 2;
+}
+.hero-body > h1 {
+  font-family: Domine;
+  font-size: 56px;
+  margin: 0 auto;
+}
+.hero-body > h3 {
+  margin: 0 auto;
+  max-width: 650px;
+  font-family: Catamaran;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hero-button > button {
+  font-family: Catamaran;
+  font-weight: 500;
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  border: 0;
+  cursor: pointer;
+}
+.hero-button > button:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.button-1 {
+  margin: 24px 24px 0 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.button-1 > svg {
+  margin-right: 8px;
+  align-items: center;
+}
+.button-2 {
+  margin-top: 24px;
+  background-color: #23272a;
+  color: white;
+}
